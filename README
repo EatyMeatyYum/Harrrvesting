@@ -1,0 +1,14 @@
+PRE-REQUISITES: In order for ABash to work you will need the following:
+
+Keneanung's eventBus package: https://keneanung.github.io/nexus-event-bus/EventBus.nxs
+Argwin's eventBus events package
+And the ABash package
+They MUST be in that order in your Reflex Packages screen in Achaea.
+
+You may need to log off and back in after installing the three packages.
+
+Open the onLoad function and change the rift_max variable to match your rift size.
+
+HARVEST ON and OFF to turn harvesting on and off. Then move around. You will automatically harvest anything in that room that your rift isn't already full of. This may try to gather some items items too, and if you don't have the Gathering skill it'll just throw an error. Feel free to comment out the appropriate lines or ignore them.
+
+EXTRACTING ON and OFF to do the same for minerals
